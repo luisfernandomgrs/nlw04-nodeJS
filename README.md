@@ -154,9 +154,10 @@ Para que isso funcione será necessário adicionar o seguinte scrip no nosso arq
 },
 </code>
 
-<p>
-    - --transpile-only 
-        - Não fazer a verificação de erros na tipagem, por conta que o VS Code já faz isso em tempo de desenvolvimento.
-    - --ignore-watch node_modules
-        - ignorar se adicionarmos bibliotecas...
-</p>
+--transpile-only
+
+- Não fazer a verificação de erros na tipagem, por conta que o VS Code já faz isso em tempo de desenvolvimento.
+
+--ignore-watch node_modules
+
+- ignorar se adicionarmos bibliotecas...
