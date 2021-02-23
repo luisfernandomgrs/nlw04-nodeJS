@@ -2,6 +2,7 @@
 Vamos aprender os conceitos básicos sobre o que é uma API, entender o que é o NodeJS.
 
 
+<code>
 function enviarEmail(para, id, assunto, texto) {
     // Bilioteca de envio de e-mail
 
@@ -12,13 +13,16 @@ class EnviarEmailParaUsuario {
     send() {
 
         // Porém, imagine id, sendo um UUID
-        // UUID => A universally unique identifier (UUID) is a 128-bit number used to identify information in computer systems.
+        // UUID => A universally unique identifier (UUID) is a 128-bit number used to identify
+        // information in computer systems.
         enviarEmail("luisfernando@gmail.com", 9899, "Olá!", "Tudo bem?")
 
         // Isso daria erro na hora de execução, por conta de id ser uma string
         // e estarmos passando um inteiro
     }
 }
+</code>
+
 
 ## Vamos ver usando TypeScript
 
