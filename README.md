@@ -4,21 +4,25 @@ Vamos aprender os conceitos básicos sobre o que é uma API, entender o que é o
 
 <code>
 function enviarEmail(para, id, assunto, texto) {
+    
     // Bilioteca de envio de e-mail
 
     console.log(para, id, assunto, texto);
 }
 
 class EnviarEmailParaUsuario {
+
     send() {
 
         // Porém, imagine id, sendo um UUID
         // UUID => A universally unique identifier (UUID) is a 128-bit number used to identify
         // information in computer systems.
+        
         enviarEmail("luisfernando@gmail.com", 9899, "Olá!", "Tudo bem?")
 
         // Isso daria erro na hora de execução, por conta de id ser uma string
         // e estarmos passando um inteiro
+        
     }
 }
 </code>
@@ -26,20 +30,28 @@ class EnviarEmailParaUsuario {
 
 ## Vamos ver usando TypeScript
 
+<code>
+    
 function enviarEmail(para: String, id: String, assunto: String, texto: string) {
+
     console.log(para, id, assunto, texto);
+    
 }
 
 class EnviarEmailParaUsuario {
+
     send() {
 
         // Passando o mouse sobre o nome da função, podemos ver agora o tipo
         // declarado de cada parametro... Isso graças ao TypeScript
         // se mudarmos o parametro id para numerico, isso resultaria em um erro
         // em desenvolvimento.
+        
         enviarEmail("luisfernando@gmail.com", "9899", "Olá!", "Tudo bem?")
+        
     }
 }
+</code>
 
 ## Usando objeto e interface
 
