@@ -6,7 +6,6 @@ Vamos aprender os conceitos básicos sobre o que é uma API, entender o que é o
 function enviarEmail(para, id, assunto, texto) {
     
     // Bilioteca de envio de e-mail
-
     console.log(para, id, assunto, texto);
 }
 
