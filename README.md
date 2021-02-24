@@ -161,3 +161,59 @@ Para que isso funcione será necessário adicionar o seguinte scrip no nosso arq
 --ignore-watch node_modules
 
 - ignorar se adicionarmos bibliotecas...
+
+
+## Usando TypeORM
+
+- https://typeorm.io/#/
+
+# Installation
+
+    * Vamos instalar o pacote typeorm reflect-metadata
+
+    <code>
+    yarn add typeorm reflect-metadata 
+    </code>
+
+
+    * Agora, o sqlite3
+    <code>yarn add sqlite3 </code>
+
+# Criar migration de usuário
+
+Nosso arquivo package.json deverá ficar desta forma para fazermos uso da CLI migrationsDir:
+
+<code>
+
+    {
+    "type": "sqlite",
+    "database": "./src/database/database.sqlite",
+    "cli": {
+        "migrationsDir": "./src/database/migrations"
+    }
+}
+</code>
+
+Para criar nossa migration, excute o cmd:
+
+<code> yarn typeorm migration:create -n CreateUsers </code>
+
+# Criar um model de usuário
+
+Após criar o model da table, no seu arquivo ./src/database/migrations/1614102976635-CreateUsers.ts
+
+execute sua migration desta forma:
+
+<code> yarn typeorm migrations:run </code>
+
+Para fazer o teste e verificar seu banco de dados e tabelas... Pode usar a extensão SQLite do VS Code
+Ou utilizar o Beekeeper Studio. O download pode ser realizado pela url:
+
+<code> https://www.beekeeperstudio.io/ </code>
+
+No caso de precisar fazer um acesso a arquivos no ubuntu/wsl2... Sua pasta base de procura deverá ser algo semelhante a isto: \\wsl$\Ubuntu-20.04\home\...
+
+
+# Criar um controller do usuário
+
+# Criar rota do usuário

@@ -1,4 +1,6 @@
-import express, { response } from 'express';
+import "reflect-metadata";
+import express from "express";
+import "./database/"; // não é necessário informar o arquivo a ser importado... Por padrão ele irá procurar um index.ts
 
 const app = express();
 
