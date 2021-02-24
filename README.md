@@ -1,4 +1,18 @@
+# Commands...
+
+- Executar a aplicação, naturalmente será executado o seu <ormconfig.json> também...:
+    * yarn <nome_da_tag_script_definida_no_arquiv_package.json> -> dev
+
+- Criar uma Migration: Use apenas para criar sua Migration; Não é necessário executar a todo momento, ;)
+    * yarn typeorm migration:create -n <nome_da_migration_a_ser_criada> -> CreateUsers
+
+- Executar uma Migration:
+    * yarn typeorm migration:run
+
+
 # nlw04-nodeJS
+
+Trabalhando com aplicação REST...
 Vamos aprender os conceitos básicos sobre o que é uma API, entender o que é o NodeJS.
 
 
@@ -125,6 +139,10 @@ class EnviarEmailParaUsuario {
         instalação com parametro somente para ambiente de desenvolvimento.
         
         - yarn add typescript -D
+
+    - # Para permitir o uso de UUID
+        - yarn add uuid
+        - yarn add @types/uuid -D
 
 
 ## Antes de testar nossos arquivos TypeScript
