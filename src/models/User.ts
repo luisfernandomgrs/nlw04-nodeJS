@@ -1,21 +1,15 @@
 import { Column, CreateDateColumn, Entity, PrimaryColumn } from "typeorm";
 import { v4 as uuid } from "uuid";
 
-@Entity("users")
-
-class User {
-    @PrimaryColumn()
-    readonly id: string;
+@Entity("users") class User {
+    @PrimaryColumn() readonly id: string;
 
     // se o nome da coluna for diferente da propriedade, informe no parâmetro de @Column()
-    @Column()
-    name: string;
+    @Column() name: string;
 
-    @Column()
-    email: string;
+    @Column() email: string;
 
-    @CreateDateColumn()
-    created_at: Date;
+    @CreateDateColumn() created_at: Date;
 
     constructor() {
         if (!this.id) {
