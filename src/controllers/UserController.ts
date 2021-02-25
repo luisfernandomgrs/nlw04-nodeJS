@@ -25,7 +25,9 @@ class UserController {
 
         await usersRepository.save(user);
 
-        return response.json(user);
+        // usando o status 201, quando desejamos informar
+        // algo como "Create"
+        return response.status(201).json(user);
     }
 }
 
