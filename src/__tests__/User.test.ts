@@ -31,5 +31,5 @@ describe("Users", () => {
         // precisamos definir como "const response = await..."
         const response = await request(app).post("/users").send({email: "user@example.com",name: "User Example"});
         expect(response.status).toBe(400);
-    });
+    });    
 });
