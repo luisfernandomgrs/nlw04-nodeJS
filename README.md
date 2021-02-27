@@ -17,7 +17,7 @@ Luis Fernando Machado
 
 # Indíce Geral
 
-- [Commands link](#Commands...)
+- [Commands... link](#Commands)
 - [nlw04-nodeJS link](#nlw04-nodeJS)
 - [Vamos ver usando TypeScript link](#-Vamos-ver-usando-TypeScript)
 - [Usando objeto e interface link](#-Usando-objeto-e-interface)
@@ -32,7 +32,7 @@ Luis Fernando Machado
 
 <br/><br/>
 
-# [Commands...](#Commands...)
+# [Commands...](#Commands)
 
 - Executar a aplicação, naturalmente será executado o seu <ormconfig.json> também...:
 
