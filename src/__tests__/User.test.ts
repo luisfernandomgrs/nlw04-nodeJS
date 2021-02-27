@@ -35,11 +35,11 @@ describe("Users", () => {
         expect(response.status).toBe(201);
     });
 
-    // it("Should not be able to create a user with exists email", async () => {
+    it("Should not be able to create a user with exists email", async () => {
 
-    //     // Por nosso request se tratar de uma Promise,
-    //     // precisamos definir como "const response = await..."
-    //     const response = await request(app).post("/users").send({ email: "user@example.com", name: "User Example" });
-    //     expect(response.status).toBe(400);
-    // });
+        // Por nosso request se tratar de uma Promise,
+        // precisamos definir como "const response = await..."
+        const response = await request(app).post("/users").send({ email: "user@example.com", name: "User Example" });
+        expect(response.status).toBe(400);
+    });
 });
