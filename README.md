@@ -19,8 +19,8 @@ Luis Fernando Machado
 
 - [Commands...](#-Commands...)
 - [nlw04-nodeJS link](#nlw04-nodeJS)
-- [Vamos ver usando TypeScript](#-Vamos-ver-usando-TypeScript)
-- [Usando objeto e interface](#-Usando-objeto-e-interface)
+- [Vamos ver usando TypeScript link](#-Vamos-ver-usando-TypeScript)
+- [Usando objeto e interface link](#-Usando-objeto-e-interface)
 - [Desestruturação de objeto como parâmetro](#-Usando-objetos-de-interface-Usando-desestruturação-de-objeto-como-parâmetro)
 - [Instalando e resolvendo dependencias](#-Instalando-e-resolvendo-dependencias-durante-o-projeto...)
 - [Dicas:](#-Dicas:-🚧)
