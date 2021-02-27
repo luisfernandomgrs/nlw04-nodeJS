@@ -18,12 +18,12 @@ Luis Fernando Machado
 # Indíce Geral
 
 - [Commands...](#Commands)
-- [nlw04-nodeJS link](#nlw04-nodeJS)
-- [Vamos ver usando TypeScript link](#-Vamos-ver-usando-TypeScript)
-- [Usando objeto e interface link](#-Usando-objeto-e-interface)
-- [Desestruturação de objeto como parâmetro](#-Usando-objetos-de-interface-Usando-desestruturação-de-objeto-como-parâmetro)
-- [Instalando e resolvendo dependencias](#-Instalando-e-resolvendo-dependencias-durante-o-projeto...)
-- [Dicas:](#-Dicas:-🚧)
+- [Sobre a NLW04, na Trilha de Node.JS](#Sobre-a-NLW04,-na-Trilha-de-Node.JS)
+- [Vamos ver usando TypeScript](#-Vamos-ver-usando-TypeScript)
+- [Usando objeto e interface](#-Usando-objeto-e-interface)
+- [Desestruturação-de-objeto-como-parâmetro](#-Interface-e-desestruturação-de-objeto-como-parâmetro)
+- [Instalando e Resolvendo dependências](#-Instalando-e-Resolvendo-dependências)
+- [Dicas:](#-Dicas:)
 - [Antes de testar nossos arquivos TypeScript](#-Antes-de-testar-nossos-arquivos-TypeScript)
 - [Usando TypeORM](#-Usando-TypeORM)
 - [Criar migration de usuário](#-Criar-migration-de-usuário)
@@ -32,7 +32,7 @@ Luis Fernando Machado
 
 <br/><br/>
 
-# [Commands...](#Commands)
+# Commands...
 
 - Executar a aplicação, naturalmente será executado o seu <ormconfig.json> também...:
 
@@ -48,7 +48,7 @@ Luis Fernando Machado
 
 <br/><br/>
 
-# [nlw04-nodeJS](#nlw04-nodeJS)
+# Sobre a NLW04, na Trilha de Node.JS
 
 Trabalhando com aplicação REST...<br/>
 Vamos aprender os conceitos básicos sobre o que é uma API, entender o que é o NodeJS.
@@ -75,7 +75,7 @@ class EnviarEmailParaUsuario {
 
 <br/><br/>
 
-## Vamos ver usando TypeScript
+## [Vamos ver usando TypeScript](#-Vamos-ver-usando-TypeScript)
 
 <br/>
 
@@ -129,7 +129,7 @@ class EnviarEmailParaUsuario {
 
 <br/><br/>
 
-# Usando objetos de interface <br/>Usando desestruturação de objeto como parâmetro
+# Interface e desestruturação de objeto como parâmetro
 
 ```ts
 function enviarEmail({ para, id, assunto, texto }: DadosDeEnvioEmail) {
@@ -151,9 +151,11 @@ class EnviarEmailParaUsuario {
 
 <br/><br/>
 
-# 🚀 Instalando e resolvendo dependencias durante o projeto...
+# Instalando e Resolvendo dependências
 
-<br/>
+<span style="font-size:60px;">🚀</span>
+<br/><br/>
+
 ### inicializa o projeto
 
 ```bash
@@ -199,9 +201,11 @@ yarn add sqlite3
 
 <br/><br/>
 
-### Dicas: 🚧
+# Dicas:
 
+<span style="font-size:80px;">🚧</span>
 <br/>
+
 - instala apenas em ambiente de projeto as definições externas de métodos/funçõespara facilitar a visualização usando Ctrl+D
 - Usams o parâmetro **-D** para fazer a instalação das dependencias somente para nosso ambiente de desenvolvimento
 - Nosso código é compilado, por isso precisamos instalar o TypeScript, que irá "traduzir" nosso código para o JavaScript antes de ser executado.
@@ -249,10 +253,9 @@ Para que isso funcione será necessário adicionar o seguinte scrip no nosso arq
 
 <br/><br/>
 
-## Usando TypeORM
+# Usando TypeORM
 
-[Type ORM](https://typeorm.io/#/)
-
+[Type ORM | Acesse a Documentação](https://typeorm.io/#/)
 <br/><br/>
 
 # Criar migration de usuário
