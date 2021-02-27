@@ -18,7 +18,7 @@ Luis Fernando Machado
 # Indíce Geral
 
 - [Commands...](#-Commands...)
-- [nlw04-nodeJS](#-nlw04-nodeJS)
+- [nlw04-nodeJS link](#nlw04-nodeJS)
 - [Vamos ver usando TypeScript](#-Vamos-ver-usando-TypeScript)
 - [Usando objeto e interface](#-Usando-objeto-e-interface)
 - [Desestruturação de objeto como parâmetro](#-Usando-objetos-de-interface-Usando-desestruturação-de-objeto-como-parâmetro)
