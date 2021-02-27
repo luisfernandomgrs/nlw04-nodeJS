@@ -35,14 +35,27 @@ class SendMailController {
         // enviar e-mail para p usuário
         const npsPath = resolve(__dirname, "..", "views", "emails", "npsMail.hbs");
 
+        /*
+        // o SELECT abaixo foi modificado...
+        //
+            const surveyUserAlreadyExists = await surveysUsersRepository.findOne({
+                where: { user_id: user.id, value: null },
+                relations: ["user", "survey"]
+            });
+
+        // Para incluir: 1 - ID do usuário
+        //               2 - Se não votou
+        //               3 - ID da pesquisa
+        */
         const surveyUserAlreadyExists = await surveysUsersRepository.findOne({
-            where: { user_id: user.id, value: null },
-            relations: ["user", "survey"]
+            where: { user_id: user.id, value: null, survey_id: survey_id },
+            relations: ["user", "survey"],
         });
 
         const variables = {
             name: user.name,
             title: survey.title,
+
             description: survey.description,
             id: "",
             link: process.env.URL_MAIL

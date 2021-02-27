@@ -26,11 +26,6 @@ class AnswerController {
 
         const surveysUsersRepository = getCustomRepository(SurveysUsersRepository);
 
-        // url: '/answers/9?=ud3a62255-22d9-4157-a0ed-e902d2a76883',        
-        console.log("request OLHE AQUI...");
-        console.log(u);
-        console.log(request.query);
-
         const surveyUser = await surveysUsersRepository.findOne({
             id: String(u),
         });
