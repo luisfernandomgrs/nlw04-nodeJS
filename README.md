@@ -23,11 +23,11 @@ Luis Fernando Machado
 - [Usando objeto e interface](#-Usando-objeto-e-interface)
 - [Desestruturação de objeto como parâmetro](#-Usando-objetos-de-interface-Usando-desestruturação-de-objeto-como-parâmetro)
 - [Instalando e resolvendo dependencias](#-Instalando-e-resolvendo-dependencias-durante-o-projeto...)
-- [Dicas:](#-Dicas:)
+- [Dicas:](#-Dicas:-🚧)
 - [Antes de testar nossos arquivos TypeScript](#-Antes-de-testar-nossos-arquivos-TypeScript)
 - [Usando TypeORM](#-Usando-TypeORM)
 - [Criar migration de usuário](#-Criar-migration-de-usuário)
-- [Criar Migration e Model de Usuários](#-Para-criar-nossa-migration,-excute-o-cmd:)
+- [Criar Migration e Model de Usuários](#-Para-criar-nossa-migration,-excute-o-cmd)
 - [Acessando o banco de Dados](#-Acessando-o-banco-de-Dados)
 
 <br/><br/>
