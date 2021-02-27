@@ -17,7 +17,7 @@ Luis Fernando Machado
 
 # Indíce Geral
 
-- [Commands... link](#Commands)
+- [Commands...](#Commands)
 - [nlw04-nodeJS link](#nlw04-nodeJS)
 - [Vamos ver usando TypeScript link](#-Vamos-ver-usando-TypeScript)
 - [Usando objeto e interface link](#-Usando-objeto-e-interface)
