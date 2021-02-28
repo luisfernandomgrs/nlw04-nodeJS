@@ -1,22 +1,61 @@
 <style>
     .container {
+        height: 300px;
         width: 800px;
         justify-content: center;
         align-items: center;
         align-content: center;
         display: flex;
         flex-direction: column;
+        overflow: hidden;
     }
 
     .value {
         margin: 0 5px;
-        padding: 10px;
+        padding: 20px;
         background: #8257e6;
         color: #fff;
-        border-radius: 6px;
-        width: 15px;
+        border-radius: 50%;
+        width: 50px;
         text-align: center;
         text-decoration: none;
+    }
+
+    .detractors {
+        background: gray;
+        color: #fff;
+    }
+
+    .detractors:hover {
+        background: #EE3558;
+        color: #fff;
+        transform: rotate(-360deg);
+        animation-delay: 0.5ms;
+        transition: all 500ms ease;
+        overflow: hidden;
+    }
+
+    .passive {
+        background: #57B4AF;
+        color: #fff;
+    }
+
+    .passive:hover {
+        color: #367875;
+    }
+
+    .promoters {
+        background: #6B962C;
+        color: #fff;
+    }
+
+    .promoters:hover {
+        background: #8EC63E;
+        color: #fff;
+        transform: rotate(360deg);
+        animation-delay: 0.5ms;
+        transition: all 500ms ease;
+        overflow: hidden;
     }
 
     .level {
@@ -27,7 +66,7 @@
     }
 
     .answers {
-        width: 500px;
+        width: 650px;
         display: flex;
         justify-content: space-between;
     }
@@ -45,16 +84,16 @@
         <span>Muito provável</span>
     </div>
     <div class="answers">
-        <a class="value" href="{{link}}/1?u={{id}}">01</a>
-        <a class="value" href="{{link}}/2?u={{id}}">02</a>
-        <a class="value" href="{{link}}/3?u={{id}}">03</a>
-        <a class="value" href="{{link}}/4?u={{id}}">04</a>
-        <a class="value" href="{{link}}/5?u={{id}}">05</a>
-        <a class="value" href="{{link}}/6?u={{id}}">06</a>
-        <a class="value" href="{{link}}/7?u={{id}}">07</a>
-        <a class="value" href="{{link}}/8?u={{id}}">08</a>
-        <a class="value" href="{{link}}/9?u={{id}}">09</a>
-        <a class="value" href="{{link}}/10?u={{id}}">10</a>
+        <a class="value detractors detractors" href="{{link}}/1?u={{id}}">01</a>
+        <a class="value detractors" href="{{link}}/2?u={{id}}">02</a>
+        <a class="value detractors" href="{{link}}/3?u={{id}}">03</a>
+        <a class="value detractors" href="{{link}}/4?u={{id}}">04</a>
+        <a class="value detractors" href="{{link}}/5?u={{id}}">05</a>
+        <a class="value detractors" href="{{link}}/6?u={{id}}">06</a>
+        <a class="value passive" href="{{link}}/7?u={{id}}">07</a>
+        <a class="value passive" href="{{link}}/8?u={{id}}">08</a>
+        <a class="value promoters" href="{{link}}/9?u={{id}}">09</a>
+        <a class="value promoters" href="{{link}}/10?u={{id}}">10</a>
     </div>
     <br />
     <br />
