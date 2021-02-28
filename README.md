@@ -23,7 +23,7 @@ Luis Fernando Machado
 - [Usando objeto e interface](#Usando-objeto-e-interface)
 - [Desestruturação-de-objeto-como-parâmetro](#Interface-desestruturação)
 - [Instalando e Resolvendo dependências](#Instalando-e-Resolvendo-dependências)
-- [Dicas:](#Dicas:)
+- [Dicas:](#Dicas)
 - [Antes de testar nossos arquivos TypeScript](#Antes-de-testar-nossos-arquivos-TypeScript)
 - [Usando TypeORM](#Usando-TypeORM)
 - [Criar Migration e Model de Usuários](#Criar-nossa-migration)
