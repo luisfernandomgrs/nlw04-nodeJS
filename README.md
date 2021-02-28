@@ -18,21 +18,20 @@ Luis Fernando Machado
 # Indíce Geral
 
 - [Commands...](#Commands)
-- [Sobre a NLW04, na Trilha de Node.JS](#Sobre-a-NLW04,-na-Trilha-de-Node.JS)
-- [Vamos ver usando TypeScript](#-Vamos-ver-usando-TypeScript)
-- [Usando objeto e interface](#-Usando-objeto-e-interface)
-- [Desestruturação-de-objeto-como-parâmetro](#-Interface-e-desestruturação-de-objeto-como-parâmetro)
-- [Instalando e Resolvendo dependências](#-Instalando-e-Resolvendo-dependências)
-- [Dicas:](#-Dicas:)
-- [Antes de testar nossos arquivos TypeScript](#-Antes-de-testar-nossos-arquivos-TypeScript)
-- [Usando TypeORM](#-Usando-TypeORM)
-- [Criar migration de usuário](#-Criar-migration-de-usuário)
-- [Criar Migration e Model de Usuários](#-Para-criar-nossa-migration,-excute-o-cmd)
-- [Acessando o banco de Dados](#-Acessando-o-banco-de-Dados)
+- [Sobre a NLW04, na Trilha de Node.JS](#Sobre-a-NLW04)
+- [Vamos ver usando TypeScript](#Vamos-ver-usando-TypeScript)
+- [Usando objeto e interface](#Usando-objeto-e-interface)
+- [Desestruturação-de-objeto-como-parâmetro](#Interface-desestruturação)
+- [Instalando e Resolvendo dependências](#Instalando-e-Resolvendo-dependências)
+- [Dicas:](#Dicas:)
+- [Antes de testar nossos arquivos TypeScript](#Antes-de-testar-nossos-arquivos-TypeScript)
+- [Usando TypeORM](#Usando-TypeORM)
+- [Criar Migration e Model de Usuários](#Criar-nossa-migration)
+- [Acessando o banco de Dados](#Acessando-o-banco-de-Dados)
 
 <br/><br/>
 
-# Commands...
+# <a name="Commands"></a>Commands...
 
 - Executar a aplicação, naturalmente será executado o seu <ormconfig.json> também...:
 
@@ -48,7 +47,7 @@ Luis Fernando Machado
 
 <br/><br/>
 
-# Sobre a NLW04, na Trilha de Node.JS
+# <a name="Sobre-a-NLW04"></a>Sobre a NLW04, na Trilha de Node.JS
 
 Trabalhando com aplicação REST...<br/>
 Vamos aprender os conceitos básicos sobre o que é uma API, entender o que é o NodeJS.
@@ -75,7 +74,7 @@ class EnviarEmailParaUsuario {
 
 <br/><br/>
 
-## [Vamos ver usando TypeScript](#-Vamos-ver-usando-TypeScript)
+## <a name="Vamos-ver-usando-TypeScript"></a>Vamos ver usando TypeScript
 
 <br/>
 
@@ -98,7 +97,7 @@ class EnviarEmailParaUsuario {
 
 <br/><br/>
 
-## Usando objeto e interface
+## <a name="Usando-objeto-e-interface"></a>Usando objeto e interface
 
 <br/>
 
@@ -129,7 +128,7 @@ class EnviarEmailParaUsuario {
 
 <br/><br/>
 
-# Interface e desestruturação de objeto como parâmetro
+# <a name="Interface-desestruturação"></a>Interface e desestruturação de objeto como parâmetro
 
 ```ts
 function enviarEmail({ para, id, assunto, texto }: DadosDeEnvioEmail) {
@@ -151,7 +150,7 @@ class EnviarEmailParaUsuario {
 
 <br/><br/>
 
-# Instalando e Resolvendo dependências
+# <a name="Instalando-e-Resolvendo-dependências"></a>Instalando e Resolvendo dependências
 
 <span style="font-size:60px;">🚀</span>
 <br/><br/>
@@ -201,7 +200,7 @@ yarn add sqlite3
 
 <br/><br/>
 
-# Dicas:
+# <a name="Dicas"></a>Dicas:
 
 <span style="font-size:80px;">🚧</span>
 <br/>
@@ -213,7 +212,7 @@ yarn add sqlite3
 
 <br/><br/>
 
-# Antes de testar nossos arquivos TypeScript
+# <a name="Antes-de-testar-nossos-arquivos-TypeScript"></a>Antes de testar nossos arquivos TypeScript
 
 ## precisamos inicializar o typescript em nossa aplicação
 
@@ -253,12 +252,12 @@ Para que isso funcione será necessário adicionar o seguinte scrip no nosso arq
 
 <br/><br/>
 
-# Usando TypeORM
+# <a name="Usando-TypeORM"></a>Usando TypeORM
 
 [Type ORM | Acesse a Documentação](https://typeorm.io/#/)
 <br/><br/>
 
-# Criar migration de usuário
+# <a name="Criar-nossa-migration"></a>Criar migration de usuário
 
 Nosso arquivo package.json deverá ficar desta forma para fazermos uso da CLI migrationsDir:
 
@@ -292,7 +291,7 @@ yarn typeorm migrations:run
 
 <br/><br/>
 
-# Acessando o banco de Dados
+# <a name="Acessando-o-banco-de-Dados"></a>Acessando o banco de Dados
 
 Para fazer o teste e verificar seu banco de dados e tabelas...<br/>Pode usar a extensão SQLite do VS Code ou utilizar o Beekeeper Studio. O download pode ser realizado pela url:
 
